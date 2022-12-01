@@ -1,12 +1,10 @@
-
-
 function Formulario() {
     return (
-            <div className='body'>
+            <div className='body-Aliments'>
                 <br /><br />
-                <form className="container-register">
-                    <br/><br/>
-                    <h1 className="title-register" >Registro</h1>
+                <form className="container-alimentos">
+                    <br/>
+                    <h1 className="" >Registro</h1>
                     <br />
 
                     <div >
@@ -48,10 +46,11 @@ function Formulario() {
                         <label id="text-register">Altura</label>
                         <input className="place" type="text" name="height" id='height' required/>
                     </div>
-                    <br/>
 
                     <button className="button-register" >Registrarse</button>
+                    <br /><br />
                 </form>
+                <br/><br /><br />
             </div>
      
 

@@ -1,0 +1,18 @@
+.body-aliments{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 840px;
+}
+
+.container-alimentos{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 520px;
+    margin-top: 10px;
+    margin-left: 430px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }

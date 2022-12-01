@@ -26,7 +26,7 @@ function Header() {
                     <a>Dieta</a>
                 </Link>
 
-                <Link to="/" className="sections">
+                <Link to="/Alimentos" className="sections">
                     <a>Alimento</a>
                 </Link>
 

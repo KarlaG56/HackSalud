@@ -4,7 +4,8 @@ function Formulario() {
     return (
             <div className='body'>
                 <br /><br />
-                <form className="container-register">
+                <form className="container-Login">
+                    <br/><br/>
                     <h1 className="title-register" >Iniciar sesion</h1>
                     <br />
 
@@ -17,11 +18,12 @@ function Formulario() {
                         <label id="text-register">Contraseña</label>
                         <input className="place" type="password" name="password" id='password_Login' required/>
                     </div>
+                    <br />
                     <Link to="/"><button className="button-Login" >Iniciar sesion</button></Link>
 
                     
                     <br/>
-                    <Link to="/Register"> <button className="button-register2" >Registrarse</button></Link>
+                    <Link to="/Registro"> <button className="button-register2" >Registrarse</button></Link>
                 </form>
             </div>
      

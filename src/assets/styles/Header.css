@@ -10,14 +10,15 @@
   }
   
   .Title-header{
-    line-height: 60px;
+    line-height: 0px;
     color:aliceblue;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
   }
   
-  .header a{
+  .sections{
     color: rgb(255, 255, 255);
-      text-transform: uppercase;
+    border-left: rgb(255, 255, 255) 2px solid;
       text-decoration: none;
       padding: 0 10px;
   }

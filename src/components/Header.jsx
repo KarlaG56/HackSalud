@@ -4,19 +4,41 @@ import { Link } from 'react-router-dom';
 
 function Header() {
     return (
-        
+
         <div className='header'>
-            <Link to="/">
-            <div className="Title-header">
-                <h1>AchuSalud</h1>
-            </div>
+            <Link to="/" className="Title-header">
+                <div >
+                    <div className="container-image">
+                        <img />
+                    </div>
+                    <h1>AchuSalud</h1>
+                </div>
             </Link>
-            
-           
+
+
             <nav >
-                <a href="">Iniciar sesion</a>
-                <a href="">Sobre nosotros</a>
-                <a href="">Blog</a>
+
+                <Link to="/" className="sections">
+                    <a >Inicio</a>
+                </Link>
+
+                <Link to="/" className="sections">
+                    <a>Dieta</a>
+                </Link>
+
+                <Link to="/" className="sections">
+                    <a>Alimento</a>
+                </Link>
+
+                <Link to="/" className="sections">
+                    <a>Nutriologos</a>
+                </Link>
+
+                <Link to="/Login" className="sections">
+                    <a>Iniciar sesion</a>
+                </Link>
+
+
             </nav>
 
         </div>

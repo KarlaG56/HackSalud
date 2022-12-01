@@ -1,0 +1,41 @@
+.body-containerUsuarioPerfil{  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100px;
+    margin-top:10px;
+   }
+
+.place-miperfil{
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 60px;
+    outline: none;
+    border:none;
+    background-color: #7bcfbf    ;
+    border-bottom: solid #14899b;
+    font-size: 19px;
+    color: rgb(0, 0, 0); 
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #text-MiPerfil{
+    font-size: 19px;
+    color: #002923;
+
+  }
+  
+  
+  .container-Perfil-Usuario{
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 40px 100px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+  
+
+  

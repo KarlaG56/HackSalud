@@ -1,0 +1,56 @@
+
+.place{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 40px;
+  outline: none;
+  border:none;
+  background-color: rgba(233, 233, 233, 0.185);
+  border-bottom: solid #84e502; ;
+  font-size: 13px;
+  color: rgb(175, 175, 175);
+  text-align: left;
+}
+
+#text-register{
+  font-size: 13px;
+}
+
+
+.container-register{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+
+  .button-register{
+    background: #84e502; 
+    padding:20px 70px;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    border-radius: 15px;
+  }
+
+  .button-Login{
+    background: #84e502; 
+    padding:20px 70px;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    border-radius: 15px;
+  }
+
+  .button-register2{
+    background: #02e5ac; 
+    padding:20px 70px;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    border-radius: 15px;
+  }

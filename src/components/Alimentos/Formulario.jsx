@@ -13,8 +13,8 @@ function Formulario() {
                         <label id="text-aliment2">Gramos</label>
                     </div>
                     <div id="div-input">
-                    <input id="text-aliment" type="text" name="nombre"  required />
-                    <input id="text-aliment2" type="text" name="gramos"  required />
+                        <input id="text-aliment" type="text" name="nombre" required />
+                        <input id="text-aliment2" type="text" name="gramos" required />
                     </div>
                 </div>
 
@@ -24,8 +24,8 @@ function Formulario() {
                         <label id="text-aliment2">Gramos</label>
                     </div>
                     <div id="div-input">
-                    <input id="text-aliment" type="text" name="nombre"  required />
-                    <input id="text-aliment2" type="text" name="gramos"  required />
+                        <input id="text-aliment" type="text" name="nombre" required />
+                        <input id="text-aliment2" type="text" name="gramos" required />
                     </div>
                 </div>
 
@@ -35,12 +35,19 @@ function Formulario() {
                         <label id="text-aliment2">Gramos</label>
                     </div>
                     <div id="div-input">
-                    <input id="text-aliment" type="text" name="nombre"  required />
-                    <input id="text-aliment2" type="text" name="gramos"  required />
+                        <input id="text-aliment" type="text" name="nombre" required />
+                        <input id="text-aliment2" type="text" name="gramos" required />
                     </div>
                 </div>
 
-                <button className="button-more" >+</button>
+                <button className="button-more" onClick={() => {
+                    return (
+                        <div id="div-input">
+                            <input id="text-aliment" type="text" name="nombre" required />
+                            <input id="text-aliment2" type="text" name="gramos" required />
+                        </div>
+                    )
+                }}>+</button>
                 <button className="button-aliment" >Calcular</button>
                 <br /><br />
             </form>

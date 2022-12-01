@@ -2,7 +2,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect, useState } from "React"
 import Register from "./components/Page/Register";
 import Login from "./components/Page/Login";
-import Home from "./components/Page/Home"
+import Home from "./components/Page/Home";
+import Nutriologo from "./components/Page/Nutricionistas";
+import PerfilUsuario from "./components/Page/PerfilDelUsuario"
 import Alimentos from "./components/Page/Alimentos";
 import ClimaContext from "./components/context/climaContext.js";
 import IsActiveContext from "./components/context/isActiveContext.js"
@@ -21,9 +23,11 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Login" element={<Login />} />
-            <Route path="/Registro" element={<Register />} />
+            <Route path="/Nutriologo" element={<Nutriologo />} />
+        <Route path="/Registro" element={<Register />} />
             <Route path="/Alimentos" element={<Alimentos />} />
-          </Routes>
+            <Route path="/PerfilUsuario" element={<PerfilUsuario />} />
+      </Routes>
         </ClimaContext.Provider>
       </IsActiveContext.Provider>
     </BrowserRouter>

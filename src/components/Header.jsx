@@ -22,20 +22,17 @@ function Header() {
                     <a >Inicio</a>
                 </Link>
 
-                <Link to="/" className="sections">
-                    <a>Dieta</a>
-                </Link>
 
                 <Link to="/Alimentos" className="sections">
                     <a>Alimento</a>
                 </Link>
 
                 <Link to="/" className="sections">
-                    <a>Nutriologos</a>
+                    <a>Nutriólogos</a>
                 </Link>
 
                 <Link to="/Login" className="sections">
-                    <a>Iniciar sesion</a>
+                    <a>Iniciar sesión</a>
                 </Link>
 
 

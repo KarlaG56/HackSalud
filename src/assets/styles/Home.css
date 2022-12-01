@@ -1,3 +1,12 @@
+
+ .body-container{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 500px;
+   }
+
 .Frase img{
     width: 100%;
     height: 100%;
@@ -7,7 +16,6 @@
 .Expertos{
     width: 18%;
     height: 3%;
-
     transform: translate(-500px,30px);
     text-align: center;
 }
@@ -17,7 +25,7 @@
 }
 .Profesionales{
     width: 18%;
-    height: 20%;
+    height: 10%;
     transform: translate(-163px,-220px);
     text-align: center;
 }

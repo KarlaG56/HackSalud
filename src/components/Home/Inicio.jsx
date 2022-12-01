@@ -1,21 +1,40 @@
+import { useContext } from 'react'
 import React from 'react';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import Dialog from '@material-ui/core/Dialog';
-import Button from '@material-ui/core/Button';
+import Button from '@material-ui/core/Button'
+import ClimaContext from '../context/climaContext';
+import IsActiveContext from '../context/isActiveContext'
 
 
 function Inicio() {
-    const [open, setOpen]=React.useState(false);
-    const handleOpen = () =>{
+    let timer;
+    const [open, setOpen] = React.useState(false);
+    const { clima, setClima } = useContext(ClimaContext);
+    const { isActive, setIsActive } = useContext(IsActiveContext);
+    const handleOpen = () => {
         setOpen(true);
     }
 
-    const handleClose = () =>{
+    const handleClose = () => {
         setOpen(false);
     }
+
+    const handleClickInitiate = () => {
+        if(clima == "Calido"){
+            timer = setTimeout(()=>{
+                alert("Toma agüita mucha gente quiere tenerte en su vida por más tiempo")
+            }, 10000)
+        }
+        else{
+            timer = setTimeout(()=>{
+                alert("Toma agüita mucha gente quiere tenerte en su vida por más tiempo")
+            }, 15000)
+        }
+        }
 
     return (
         <div className="body-container">
@@ -56,15 +75,20 @@ function Inicio() {
                 <DialogTitle>¿Como sientes el clima?</DialogTitle>
                 <DialogActions>
                     <button onClick={
-                        ()=>{
+                        () => {
+                            handleClickInitiate();
+                            setClima("Calido");
                             handleClose();
                         }
                     }>Calido</button>
                     <button onClick={() => {
+                        handleClickInitiate();
+                        setClima("Frio");
                         handleClose();
                     }}>Frio</button>
                 </DialogActions>
             </Dialog>
+            <button onClick={() =>{clearInterval(timer); console.log("Detenido")}}>Detener</button>
         </div>
     );
 }

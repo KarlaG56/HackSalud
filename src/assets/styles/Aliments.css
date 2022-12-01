@@ -16,3 +16,56 @@
     margin-left: 430px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
+
+  .Row{
+display: flex;
+justify-content: s;
+  }
+
+  .button-aliment{
+    margin-top: 40px;
+    background: #84e502; 
+    padding:20px 70px;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    border-radius: 15px;
+  }
+
+  .button-more{
+    margin-top: 40px;
+    background: #84e502; 
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 45px;
+    padding:10px 20px;
+    cursor:pointer;
+    border-radius: 45px;
+  }
+
+
+  #div-text{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #div-input{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #div-input input{
+    background-color: #ffffff;
+    margin-left: 15px;
+    padding: 8px;
+    cursor: none;
+    border-color: #84e502;
+  }
+
+  #text-aliment{
+    margin:auto;
+  }
+
+  #text-aliment2{
+    margin: auto;
+  }

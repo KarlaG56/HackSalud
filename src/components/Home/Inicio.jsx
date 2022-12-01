@@ -1,7 +1,22 @@
-
+import React from 'react';
+import DialogActions from '@material-ui/core/DialogActions';
+import DialogContent from '@material-ui/core/DialogContent';
+import DialogTitle from '@material-ui/core/DialogTitle';
+import DialogContentText from '@material-ui/core/DialogContentText';
+import Dialog from '@material-ui/core/Dialog';
+import Button from '@material-ui/core/Button';
 
 
 function Inicio() {
+    const [open, setOpen]=React.useState(false);
+    const handleOpen = () =>{
+        setOpen(true);
+    }
+
+    const handleClose = () =>{
+        setOpen(false);
+    }
+
     return (
         <div className="body-container">
             <br /><br />
@@ -36,7 +51,20 @@ function Inicio() {
                 </div>
             </div>
 
-            <button className="button-home">Iniciar dia</button>
+            <button className="button-home" onClick={handleOpen}>Iniciar dia</button>
+            <Dialog open={open} onClose={handleClose}>
+                <DialogTitle>¿Como sientes el clima?</DialogTitle>
+                <DialogActions>
+                    <button onClick={
+                        ()=>{
+                            handleClose();
+                        }
+                    }>Calido</button>
+                    <button onClick={() => {
+                        handleClose();
+                    }}>Frio</button>
+                </DialogActions>
+            </Dialog>
         </div>
     );
 }

@@ -19,8 +19,9 @@
   .sections{
     color: rgb(255, 255, 255);
     border-left: rgb(255, 255, 255) 2px solid;
-      text-decoration: none;
-      padding: 0 10px;
+    text-decoration: none;
+    padding: 0 10px;
+    
   }
   
   

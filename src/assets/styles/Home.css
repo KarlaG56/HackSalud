@@ -1,10 +1,9 @@
 
- .body-container{
-   
+ .body-container{  
     display: flex;
     align-items: center;
     flex-direction: column;
-    min-height: 100px;
+    min-height: 800px;
    }
 
 .Frase img{
@@ -54,9 +53,14 @@
 .DietasPersonalizadas img{
     width: 30%;
 }
-.SubTituloHome{
 
-}
-.TextoSubtitulo{
-
-}
+.button-home{
+    background: #84e502; 
+    padding:20px 70px;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor:pointer;
+    border-radius: 15px;
+    margin-top: 65px;
+    font-size: 15px;
+  }

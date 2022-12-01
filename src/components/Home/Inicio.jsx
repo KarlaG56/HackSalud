@@ -35,6 +35,8 @@ function Inicio() {
                     <a className="TextoSubtitulo">Para conseguir tus objetivos de peso, salud o rendimiento deportivo, la dieta se tiene que adaptar a ti y no al revés</a>
                 </div>
             </div>
+
+            <button className="button-home">Iniciar dia</button>
         </div>
     );
 }

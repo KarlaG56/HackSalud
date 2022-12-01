@@ -4,11 +4,12 @@ function Formulario() {
                 <br /><br />
                 <form className="container-alimentos">
                     <br/>
-                    <h1 className="" >Registro</h1>
+                    <h1 className="" >Ingredientes</h1>
                     <br />
 
                     <div >
                         <label id="text-register">Nombre</label>
+                        <input className="place" type="text" name="nombre" id='Nombre' required/>
                         <input className="place" type="text" name="nombre" id='Nombre' required/>
                     </div>
 

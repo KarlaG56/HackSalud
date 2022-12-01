@@ -16,10 +16,3 @@
   -webkit-text-size-adjust: 100%;
 }
 
-.body{
-  margin: auto;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  min-height: 1000px;
- }

@@ -1,10 +1,10 @@
 
  .body-container{
-    margin: auto;
+   
     display: flex;
     align-items: center;
     flex-direction: column;
-    min-height: 500px;
+    min-height: 100px;
    }
 
 .Frase img{
@@ -13,10 +13,14 @@
     background-color: aqua;
     border-radius: 25px;
 }
+.Users{
+    display: flex;
+    flex-direction: row;
+}
 .Expertos{
+    margin: auto;
     width: 18%;
     height: 3%;
-    transform: translate(-500px,30px);
     text-align: center;
 }
 .Expertos img{
@@ -24,27 +28,27 @@
     height: 5%;
 }
 .Profesionales{
+    margin: auto;
     width: 18%;
     height: 10%;
-    transform: translate(-163px,-220px);
     text-align: center;
 }
 .Profesionales img{
     width: 30%;
 }
 .Pacientes{
+    margin: auto;
     width: 18%;
     height: 3%;
-    transform: translate(170px,-491px);
     text-align: center;
 }
 .Pacientes img{
     width: 30%;
 }
 .DietasPersonalizadas{
+    margin: auto;
     width: 18%;
     height: 3%;
-    transform: translate(500px,-740px);
     text-align: center;
 }
 .DietasPersonalizadas img{
